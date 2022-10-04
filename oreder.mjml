@@ -94,7 +94,7 @@
   <mj-body width="600px" background-color="white">
     <mj-section css-class="top-nav">
       <mj-column>
-        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.svg"></mj-image>
+        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.png"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -109,7 +109,7 @@
         </mj-navbar>
       </mj-column>
       <mj-column css-class="mobile-logo">
-        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.svg"></mj-image>
+        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.png"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -155,7 +155,7 @@
               In Progress
               <p class="status-line status-line1"></p>
             </mj-text>
-            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/inprogress-icon.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/inprogress-icon.png"></mj-image>
           </mj-column>
           <mj-column width="33%" css-class="status-col">
             <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
@@ -163,14 +163,14 @@
               In Shipped
               <p class="status-line status-line3"></p>
             </mj-text>
-            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.png"></mj-image>
           </mj-column>
           <mj-column width="33%" css-class="status-col">
             <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
               <p class="status-line status-line4"></p>
               Delivered
             </mj-text>
-            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.png"></mj-image>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -197,7 +197,7 @@
       <mj-section>
         <mj-group>
           <mj-column padding="0" width="30%">
-            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.svg" width="116px" />
+            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.png" width="116px" />
           </mj-column>
           <mj-column padding="0" width="70%">
             <mj-text padding="0">
@@ -233,7 +233,7 @@
       <mj-section>
         <mj-group>
           <mj-column padding="0" width="30%">
-            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.svg" width="116px" />
+            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.png" width="116px" />
           </mj-column>
           <mj-column padding="0" width="70%">
             <mj-text padding="0">
@@ -302,7 +302,7 @@
             </h3>
           </mj-text>
           <mj-text>
-            <img style="margin-bottom: -10px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/cash.svg" />
+            <img style="margin-bottom: -10px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/cash.png" />
             <h4 style="margin:0 5px;display: inline;">Cash on Delivery</h4>
           </mj-text>
         </mj-column>
@@ -357,11 +357,11 @@
       <mj-section background-color="#F6F6F6" border-top="1px solid #DCDCDC">
         <mj-column width="100%">
           <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/fb.svg">
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/fb.png">
             </mj-social-element>
-            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/insta.svg">
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/insta.png">
             </mj-social-element>
-            <mj-social-element href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/youtube.svg">
+            <mj-social-element href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/youtube.png">
             </mj-social-element>
           </mj-social>
         </mj-column>
