@@ -1,0 +1,414 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="nav" color="#111111" font-size="14px" font-weight="100" />
+      <mj-font name="Helvetica Neue" href="http://fonts.cdnfonts.com/css/helvetica-neue-9" />
+      <mj-all font-family="Helvetica Neue" />
+    </mj-attributes>
+    <mj-style>
+      .nav-link {
+        color: #111111 !important;
+        font-size: 14px !important;
+        font-weight: 100 !important;
+        padding: 0 35px 0 0 !important;
+      }
+
+      .order-details {
+        max-width: 375px !important;
+      }
+
+      .status-col {
+        position: relative;
+      }
+
+      p.status-line {
+        position: absolute;
+        width: calc(100% - 125px);
+        top: 50%;
+      }
+
+      p.status-line.status-line1 {
+        position: absolute;
+        right: 0;
+        border-top: 2px solid;
+      }
+
+      p.status-line.status-line2 {
+        position: absolute;
+        left: 0;
+        border-top: 2px dashed;
+      }
+
+      p.status-line.status-line3 {
+        position: absolute;
+        right: 0;
+        border-top: 2px dashed;
+      }
+
+      p.status-line.status-line4 {
+        position: absolute;
+        left: 0;
+        border-top: 2px dashed;
+      }
+      .mobile-logo {
+        display: none !important;
+      }
+      .nav-column {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      @media only screen and (max-width: 500px) {
+        p.status-line {
+          width: calc(100% - 105px);
+        }
+      }
+      @media only screen and (max-width: 400px) {
+        p.status-line {
+          width: calc(100% - 85px);
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        .top-nav {
+          display: none !important;
+        }
+        .nav-column {
+            width: 20% !important;
+            max-width: 50% !important;
+        }
+        .mobile-logo {
+            display: inline-block !important;
+            width: 50% !important;
+            padding-top: 10px
+        }
+        .mj-inline-links {
+            width: 300px !important;
+        }
+        .nav-link {
+            color: #fff !important;
+            background: #111111;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body width="600px" background-color="white">
+    <mj-section css-class="top-nav">
+      <mj-column>
+        <mj-image width="100px" src="https://ik.imagekit.io/shunramit/assets/logo_PT6XoTlt6.svg"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column  css-class="nav-column">
+        <mj-navbar base-url="#" hamburger="hamburger" ico-align="left" ico-color="#111111">
+          <mj-navbar-link href="" css-class="nav-link">New In</mj-navbar-link>
+          <mj-navbar-link href="#" css-class="nav-link">Women</mj-navbar-link>
+          <mj-navbar-link href="#" css-class="nav-link">Men</mj-navbar-link>
+          <mj-navbar-link href="#" css-class="nav-link">Beauty</mj-navbar-link>
+          <mj-navbar-link href="#" css-class="nav-link">Home & Tech</mj-navbar-link>
+          <mj-navbar-link href="#" css-class="nav-link">Kids</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+      <mj-column css-class="mobile-logo">
+        <mj-image width="100px" src="https://ik.imagekit.io/shunramit/assets/logo_PT6XoTlt6.svg"></mj-image>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text font-size="32px" font-weight="100" align="center">
+          Your Job is Done, It’s out turn to take the wheel.
+        </mj-text>
+      </mj-column>
+      <mj-column width="100%">
+        <mj-text font-size="14px" color="#767676" font-weight="100" align="center" line-height="20px">
+          Hi Mish, Thank you for shopping with us! Here’s a confirmation of your order and all the details you may need.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-wrapper css-class="order-details">
+      <mj-section>
+        <mj-group>
+          <mj-column width="50%">
+            <mj-text font-weight="100" font-size="18px">
+              Order Details
+            </mj-text>
+          </mj-column>
+          <mj-column width="50%">
+            <mj-text font-weight="100" font-size="18px" align="right">
+              BLM5687485
+            </mj-text>
+          </mj-column>
+          <mj-column width="100%">
+            <mj-button background-color="#000000" color="white" font-size="12px" font-weight="500" padding-top="20px" height="41px" width="100%" text-transform="uppercase">
+              Track your order
+            </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper border="1px solid #DEDEDE" border-radius="5px">
+      <mj-section padding="0 0">
+        <mj-group>
+          <mj-column width="33%" css-class="status-col">
+            <mj-text align="center" font-size="14px" color="#000000" font-weight="500">
+              In Progress
+              <p class="status-line status-line1"></p>
+            </mj-text>
+            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/inprogress-icon_2xNK14H-l.svg"></mj-image>
+          </mj-column>
+          <mj-column width="33%" css-class="status-col">
+            <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
+              <p class="status-line status-line2"></p>
+              In Shipped
+              <p class="status-line status-line3"></p>
+            </mj-text>
+            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/rec_LdajVrhPvY.svg"></mj-image>
+          </mj-column>
+          <mj-column width="33%" css-class="status-col">
+            <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
+              <p class="status-line status-line4"></p>
+              Delivered
+            </mj-text>
+            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/rec_LdajVrhPvY.svg"></mj-image>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper>
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text align="left" font-size="12px" color="#000000" font-weight="500">
+            SHIPMENT X of XX
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" font-size="12px" color="#000000" font-weight="100">
+            Estimated Delivery 3 - 4 Days
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#DEDEDE" />
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column padding="0" width="30%">
+            <mj-image src="https://ik.imagekit.io/shunramit/assets/product_UW-6FXcF7.svg" width="116px" />
+          </mj-column>
+          <mj-column padding="0" width="70%">
+            <mj-text padding="0">
+              <h3>BRAND NAME</h3>
+              <p style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;width:180px;">DescriptionDescriptionDescription</p>
+            </mj-text>
+            <mj-table padding="0" width="180px">
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Original Size
+                </td>
+                <td>00 / OS</td>
+              </tr>
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Color
+                </td>
+                <td>00</td>
+              </tr>
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Qty
+                </td>
+                <td>Variant </td>
+              </tr>
+            </mj-table>
+            <mj-text align="right" padding-top="40px" font-size="14px" font-weight="500">
+              AED XX,XXX
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section>
+        <mj-group>
+          <mj-column padding="0" width="30%">
+            <mj-image src="https://ik.imagekit.io/shunramit/assets/product_UW-6FXcF7.svg" width="116px" />
+          </mj-column>
+          <mj-column padding="0" width="70%">
+            <mj-text padding="0">
+              <h3>BRAND NAME</h3>
+              <p style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;width:180px;">DescriptionDescriptionDescription</p>
+            </mj-text>
+            <mj-table padding="0" width="180px">
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Original Size
+                </td>
+                <td>00 / OS</td>
+              </tr>
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Color
+                </td>
+                <td>00</td>
+              </tr>
+              <tr style="font-weight: 100;font-size: 14px;line-height: 20px;color: #767676;">
+                <td style="padding: 0 2px 0 0;">
+                  Qty
+                </td>
+                <td>Variant </td>
+              </tr>
+            </mj-table>
+            <mj-text align="right" padding-top="40px" font-size="14px" font-weight="500">
+              AED XX,XXX
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper>
+      <mj-section padding-bottom="0">
+        <mj-column>
+          <mj-text>
+            <h3 style="text-transform: uppercase;font-weight: 500;font-size:14px;">
+              Personal Information
+            </h3>
+            <p style="font-weight:100; line-height: 20px;color: #000000;">
+              Louise Conroy <br />
+              firstname@domain.com <br />
+              +971-50-3145667
+            </p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text>
+            <h3 style="text-transform: uppercase;font-weight: 500;font-size:14px;">
+              SHIPPING METHOD
+            </h3>
+            <p style="font-weight:100; line-height: 20px;color: #000000;margin-bottom: 0;">
+              Standard delivery (2 working days)
+            </p>
+            <h4 style="margin: 10px 0">25 AED</h4>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0">
+        <mj-column>
+          <mj-text padding="10px 25px 0">
+            <h3 style="text-transform: uppercase;font-weight: 500;font-size:14px;margin: 0">
+              Payment Method:
+            </h3>
+          </mj-text>
+          <mj-text>
+            <img style="margin-bottom: -10px" src="https://ik.imagekit.io/shunramit/assets/cash_4IQhz1vlOz.svg" />
+            <h4 style="margin:0 5px;display: inline;">Cash on Delivery</h4>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-table font-size="14px" font-weight="100">
+            <tr style="font-weight: 100">
+              <td>
+                Subtotal:
+              </td>
+              <td>
+                AED 25,474
+              </td>
+            </tr>
+            <tr style="font-weight: 100">
+              <td>
+                Discount:
+              </td>
+              <td style="color:#FF3A41;font-weight: 100">
+                - AED 3,500
+              </td>
+            </tr>
+            <tr style="font-weight: 100">
+              <td>
+                Total:
+              </td>
+              <td style="color:#000000;font-weight: 500">
+                AED 21,973
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <mj-section>
+        <mj-column>
+          <mj-spacer height="50px" />
+          <mj-divider border-width="1px" border-style="solid" border-color="#000000" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding-top="0">
+      <mj-section padding="20px 0 40px">
+        <mj-column padding="0">
+          <mj-text align="center" padding="0">
+            <h2 style="margin-top:0;font-weight: 500; font-size: 18px;">Thank you for shopping with us!</h2>
+            <p style="font-size: 14px; font-weight: 100">
+              The Bloomingdale’s Team
+            </p>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#F6F6F6" border-top="1px solid #DCDCDC">
+        <mj-column width="100%">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://ik.imagekit.io/shunramit/assets/fb_ywL1q-tVC.svg">
+            </mj-social-element>
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://ik.imagekit.io/shunramit/assets/insta_PDH2ykmRWV.svg">
+            </mj-social-element>
+            <mj-social-element href="#" src="https://ik.imagekit.io/shunramit/assets/youtube_B38MEYmbxV.svg">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+      </mj-section>
+      <mj-section border="1px solid #DCDCDC" background-color="#F6F6F6" text-align="center">
+        <mj-column width="100%">
+          <mj-text align="center">
+            Download the Bloomingdale’s Middle East app
+          </mj-text>
+        </mj-column>
+        <mj-group>
+          <mj-column width="145px" padding="10px 0">
+            <mj-image width="130px" padding="0" src="https://uploadnow.io/s/6b1382d0-1b41-4b8e-ac2e-102946fb8376?o=t" />
+          </mj-column>
+          <mj-column width="145px" padding="10px 0">
+            <mj-image width="130px" padding="0" src="https://ik.imagekit.io/shunramit/assets/Playstore_27BJfb2Gpo.png" />
+          </mj-column>
+        </mj-group>
+      </mj-section>
+      <mj-section background-color="#F6F6F6" text-align="center">
+        <mj-column width="100%">
+          <mj-image width="140px" src="https://ik.imagekit.io/shunramit/assets/off-logo_icF5dSMnsO.png" />
+          <mj-text align="center" font-size="14px" line-height="20px" font-weight="100">
+            You're currently registered to receive emails. This message was sent to you by Bloomingdale's Middle East. You are receiving these emails as you are an Al Tayer Group customer and a member of the Amber Loyalty Programme or have subscribed to the Bloomingdale’s Middle East marketing emails. Our endeavor is to provide relevant and timely communications depending on your profile and preferences.
+            <br />
+            <br />
+            Alternatively, you can call our customer care support team on +971 800 256. Please allow up to 48 hours to process your request.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section background-color="#F6F6F6">
+        <mj-column width="140px">
+          <mj-text align="center">
+            <a style="color:#111111;font-weight: 100;" href="#">Unsubscribe</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="140px">
+          <mj-text align="center">
+            <a style="color:#111111;font-weight: 100;" href="#">Privacy Policy</a>
+          </mj-text>
+        </mj-column>
+        <mj-column width="160px">
+          <mj-text align="center">
+            <a style="color:#111111;font-weight: 100;" href="#">View Email Online</a>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
