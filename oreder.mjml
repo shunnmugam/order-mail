@@ -94,7 +94,7 @@
   <mj-body width="600px" background-color="white">
     <mj-section css-class="top-nav">
       <mj-column>
-        <mj-image width="100px" src="https://ik.imagekit.io/shunramit/assets/logo_PT6XoTlt6.svg"></mj-image>
+        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.svg"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section>
@@ -109,7 +109,7 @@
         </mj-navbar>
       </mj-column>
       <mj-column css-class="mobile-logo">
-        <mj-image width="100px" src="https://ik.imagekit.io/shunramit/assets/logo_PT6XoTlt6.svg"></mj-image>
+        <mj-image width="100px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/logo.svg"></mj-image>
       </mj-column>
     </mj-section>
 
@@ -155,7 +155,7 @@
               In Progress
               <p class="status-line status-line1"></p>
             </mj-text>
-            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/inprogress-icon_2xNK14H-l.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/inprogress-icon.svg"></mj-image>
           </mj-column>
           <mj-column width="33%" css-class="status-col">
             <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
@@ -163,14 +163,14 @@
               In Shipped
               <p class="status-line status-line3"></p>
             </mj-text>
-            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/rec_LdajVrhPvY.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.svg"></mj-image>
           </mj-column>
           <mj-column width="33%" css-class="status-col">
             <mj-text align="center" font-size="14px" color="#AAAAAA" font-weight="500">
               <p class="status-line status-line4"></p>
               Delivered
             </mj-text>
-            <mj-image width="32px" src="https://ik.imagekit.io/shunramit/assets/rec_LdajVrhPvY.svg"></mj-image>
+            <mj-image width="32px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/rec.svg"></mj-image>
           </mj-column>
         </mj-group>
       </mj-section>
@@ -197,7 +197,7 @@
       <mj-section>
         <mj-group>
           <mj-column padding="0" width="30%">
-            <mj-image src="https://ik.imagekit.io/shunramit/assets/product_UW-6FXcF7.svg" width="116px" />
+            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.svg" width="116px" />
           </mj-column>
           <mj-column padding="0" width="70%">
             <mj-text padding="0">
@@ -233,7 +233,7 @@
       <mj-section>
         <mj-group>
           <mj-column padding="0" width="30%">
-            <mj-image src="https://ik.imagekit.io/shunramit/assets/product_UW-6FXcF7.svg" width="116px" />
+            <mj-image src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/product.svg" width="116px" />
           </mj-column>
           <mj-column padding="0" width="70%">
             <mj-text padding="0">
@@ -302,7 +302,7 @@
             </h3>
           </mj-text>
           <mj-text>
-            <img style="margin-bottom: -10px" src="https://ik.imagekit.io/shunramit/assets/cash_4IQhz1vlOz.svg" />
+            <img style="margin-bottom: -10px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/cash.svg" />
             <h4 style="margin:0 5px;display: inline;">Cash on Delivery</h4>
           </mj-text>
         </mj-column>
@@ -357,11 +357,11 @@
       <mj-section background-color="#F6F6F6" border-top="1px solid #DCDCDC">
         <mj-column width="100%">
           <mj-social font-size="15px" icon-size="30px" mode="horizontal">
-            <mj-social-element padding="0 40px 0 0" href="#" src="https://ik.imagekit.io/shunramit/assets/fb_ywL1q-tVC.svg">
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/fb.svg">
             </mj-social-element>
-            <mj-social-element padding="0 40px 0 0" href="#" src="https://ik.imagekit.io/shunramit/assets/insta_PDH2ykmRWV.svg">
+            <mj-social-element padding="0 40px 0 0" href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/insta.svg">
             </mj-social-element>
-            <mj-social-element href="#" src="https://ik.imagekit.io/shunramit/assets/youtube_B38MEYmbxV.svg">
+            <mj-social-element href="#" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/youtube.svg">
             </mj-social-element>
           </mj-social>
         </mj-column>
@@ -374,16 +374,16 @@
         </mj-column>
         <mj-group>
           <mj-column width="145px" padding="10px 0">
-            <mj-image width="130px" padding="0" src="https://uploadnow.io/s/6b1382d0-1b41-4b8e-ac2e-102946fb8376?o=t" />
+            <mj-image width="130px" padding="0" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/Appstore.png" />
           </mj-column>
           <mj-column width="145px" padding="10px 0">
-            <mj-image width="130px" padding="0" src="https://ik.imagekit.io/shunramit/assets/Playstore_27BJfb2Gpo.png" />
+            <mj-image width="130px" padding="0" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/Playstore.png" />
           </mj-column>
         </mj-group>
       </mj-section>
       <mj-section background-color="#F6F6F6" text-align="center">
         <mj-column width="100%">
-          <mj-image width="140px" src="https://ik.imagekit.io/shunramit/assets/off-logo_icF5dSMnsO.png" />
+          <mj-image width="140px" src="https://raw.githubusercontent.com/shunnmugam/order-mail/main/assets/off-logo.png" />
           <mj-text align="center" font-size="14px" line-height="20px" font-weight="100">
             You're currently registered to receive emails. This message was sent to you by Bloomingdale's Middle East. You are receiving these emails as you are an Al Tayer Group customer and a member of the Amber Loyalty Programme or have subscribed to the Bloomingdale’s Middle East marketing emails. Our endeavor is to provide relevant and timely communications depending on your profile and preferences.
             <br />
