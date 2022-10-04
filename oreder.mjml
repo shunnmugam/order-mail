@@ -25,6 +25,7 @@
         position: absolute;
         width: calc(100% - 125px);
         top: 50%;
+        display: none;
       }
 
       p.status-line.status-line1 {
